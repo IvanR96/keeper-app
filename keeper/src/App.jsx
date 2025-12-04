@@ -10,10 +10,6 @@ function App(){
     <Header />
     <Footer />
     <Note />
-    <Card 
-    name="Joe Smith"
-    img=""
-    />
   </div>
 };
 
