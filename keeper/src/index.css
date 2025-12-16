@@ -55,15 +55,9 @@ footer p {
   word-wrap: break-word;
 }
 
-img{
-  width: 400px;
-  height: 300px;
+
+.card img {
+  margin: 30px 20px 0 0;
+  width: 300px;
 }
 
-.card-prop{
-  text-align: center;
-}
-
-.card-prop > p{
-  margin-left: 250px;
-}
