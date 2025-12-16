@@ -2,14 +2,15 @@ import React from 'react'
 import './index.css'
 import Header from './Header';
 import Footer from './Footer';
-import Note from './Note';
-import Card from './Card';
+import { createNote } from './CreateNote';
+import { notes } from './Notes';
 
 function App(){
   return <div>
     <Header />
     <Footer />
-    <Note />
+    {notes.map(createNote)}
+
   </div>
 };
 
