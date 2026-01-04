@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './index.css'
 import Header from './Header';
 import Footer from './Footer';
-import { createNote } from './CreateNote';
-import { notes } from './Notes';
+import CreateArea from './CreateArea';
 
 function App(){
-  return <div>
+
+  return( <div>
     <Header />
+    
+    <CreateArea />
+    
+
     <Footer />
-    {notes.map(createNote)}
 
   </div>
+  )
 };
 
 export default App;
