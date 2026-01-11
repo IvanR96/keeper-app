@@ -3,7 +3,7 @@ import HighlightIcon from "@mui/icons-material/Highlight";
 
 function Header(){
     return <header className="header">
-    <h1><HighlightIcon/>Notely</h1>
+    <h1><HighlightIcon/>Notepad</h1>
     </header>
 };
 
